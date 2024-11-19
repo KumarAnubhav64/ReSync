@@ -1,0 +1,11 @@
+logging:
+  level: INFO
+  file: app.log
+
+network:
+  port: 8080
+  max_connections: 10
+
+sync:
+  watch_directory: ./
+  block_size: 4096
